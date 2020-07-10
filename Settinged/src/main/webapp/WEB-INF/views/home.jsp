@@ -4,22 +4,24 @@
 <html>
 <head>
 	<title>Home</title>
-
-	<link rel="stylesheet" href="resources/css/bootstrap.css">
 	
+	<!-- 부트스트랩 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+
 </head>
 <body>
 
-<div class="container" style="width: 100%; height:100%;">
-	<div class="row" style="width: 100%; height:35%;">
-	</div>
-
-	<div class="container" style="height:100%;">
-		<button class="btn btn-primary btn-lg center-block " style="width:50%;"> 로그인 </button> <br>
-		<button class="btn btn-primary btn-lg center-block"  style="width:50%;"> 회원가입 </button> <br>
-	</div>
+	<div class="container" style="width: 100%; height:100%;">
+		<div class="row" style="width: 100%; height:35%;">
+		</div>
+		
+		<div class="mx-auto" style="width: 200px;">
+			<p><a class="btn btn-secondary btn-lg btn-block" href="/loginForm"> 로그인 </a></p>
+			<a class="btn btn-secondary btn-lg btn-block" href="#"> 회원가입 </a> <br>
+		</div>
 	
-</div>
+	</div>
 
 
 

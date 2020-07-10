@@ -17,6 +17,8 @@ import com.my.settinged.util.LogInterceptor;
 @Controller
 public class HomeController {
 	
+	Logger logger = LoggerFactory.getLogger(LogInterceptor.class);
+	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		

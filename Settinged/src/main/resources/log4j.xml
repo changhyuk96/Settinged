@@ -18,7 +18,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="com.my.test0615">
+	<logger name="com.my.settinged">
 		<level value="debug" />
 	</logger>
 	
